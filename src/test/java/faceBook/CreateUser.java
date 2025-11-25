@@ -53,6 +53,8 @@ public class CreateUser {
         driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("789456123");
         driver.findElement(By.xpath("//input[@name='reg_passwd__']")).sendKeys("789ajshgel@kadf");
 
+        driver.findElement(By.xpath("//button[@name='websubmit']")).click();
+
 
     }
 }
